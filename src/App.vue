@@ -1,8 +1,5 @@
 <template>
   <h1>PokeShow</h1>
-  <nav>
-    <router-link to="/">Home</router-link>
-  </nav>
   <router-view />
 </template>
 
