@@ -35,12 +35,12 @@ export default {
     const router = useRouter();
     const isLoad = ref(false);
 
-    const getPokemonId = (url: string) => getIdFromUrlPokemon(url);
+    const getPokemonId = (url: any) => getIdFromUrlPokemon(url);
 
-    const getPokemonImage = (id: number) => getPokemonImageUrl(id);
+    const getPokemonImage = (id: any) => getPokemonImageUrl(id);
 
     //There is just one 'id' 'cause the prop has same name of param id = pokemon/:id
-    const selectPokemon = (id: number) =>
+    const selectPokemon = (id: any) =>
       router.push({ name: "pokemon", params: { id } });
 
     //Consume service on initial component
@@ -54,7 +54,13 @@ export default {
           isLoad.value = false;
         });
     });
-    return { list, getPokemonImage, getPokemonId, selectPokemon, isLoad };
+    return {
+      list,
+      getPokemonImage,
+      getPokemonId,
+      selectPokemon,
+      isLoad,
+    };
   },
 };
 </script>

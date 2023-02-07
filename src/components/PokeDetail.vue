@@ -1,6 +1,6 @@
 <template>
   <nav>
-    <router-link to="/">Go Home</router-link>
+    <router-link to="/"> Go Home </router-link>
   </nav>
   <LoaderGeneric v-if="isLoad" />
   <div
@@ -42,7 +42,6 @@ export default {
       isLoad.value = true;
       getPokemon(route.params.id)
         .then((resp) => {
-          console.log(resp.stats);
           info.value = resp;
         })
         .finally(() => {
