@@ -1,6 +1,6 @@
-# Table Interation
+# PokeShow
 <h1 align="center">
-    <img alt="gif to show program" title="Show program" src="@/asets/PokeShowGif.gif" />
+    <img alt="gif to show program" title="Show program" src="./src/assets/PokeShowGif.gif" />
 </h1>
 
 # Descrião
