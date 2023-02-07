@@ -1,24 +1,16 @@
-# poke-show-app
+# Table Interation
+<h1 align="center">
+    <img alt="gif to show program" title="Show program" src="@/asets/PokeShowGif.gif" />
+</h1>
 
-## Project setup
-```
-npm install
-```
+# Descrião
+Projeto front-end que realiza requisições da API "https://pokeapi.co/", fazendo uso do Vue 3, utilizando conceitos arquitetura de pastas, componentização, uso do PrimeVue, biblioteca de estilização e componentes destinada ao Vue. Projeto desenvolvido utilizando Composition API, services (chamadas para a API) e roteamento com vue-router
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+# Construído com
+ - **Vue.Js - Vue.Js** é um framework JavaScript de código-aberto, focado no desenvolvimento de interfaces de usuário e aplicativos de página única.
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## Status do Projeto
+**Concluído:** O projeto se encontra finalizado. Podendo haver futuras alterações para implementação de testes
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Autor
+- **Desenvolvimento: Leonardo Borges** - Responsável pelo desenvolvimento da aplicação;
