@@ -10,7 +10,7 @@ Projeto front-end que realiza requisições da API "https://pokeapi.co/", fazend
  - **Vue.Js - Vue.Js** é um framework JavaScript de código-aberto, focado no desenvolvimento de interfaces de usuário e aplicativos de página única.
 
 ## Status do Projeto
-**Concluído:** O projeto se encontra finalizado. Podendo haver futuras alterações para implementação de testes
+**Concluído:** O projeto se encontra finalizado. Podendo haver futuras alterações para implementação de testes e paginação.
 
 ## Autor
 - **Desenvolvimento: Leonardo Borges** - Responsável pelo desenvolvimento da aplicação;
