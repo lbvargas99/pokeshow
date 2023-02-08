@@ -1,6 +1,6 @@
 # PokeShow
 <h1 align="center">
-    <img alt="gif to show program" title="Show program" src="./src/assets/PokemonShowGif.gif" width="300" />
+    <img alt="gif to show program" title="Show program" src="./src/assets/PokemonShowGif.gif" width="800" />
 </h1>
 
 # Descrião
