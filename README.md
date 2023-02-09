@@ -3,7 +3,7 @@
     <img alt="gif to show program" title="Show program" src="./src/assets/PokemonShowGif.gif" width="800" />
 </h1>
 
-# Descrião
+# Descrição
 Projeto front-end que realiza requisições da API "https://pokeapi.co/", fazendo uso do Vue 3, utilizando conceitos arquitetura de pastas, componentização, uso do PrimeVue, biblioteca de estilização e componentes destinada ao Vue. Projeto desenvolvido utilizando Composition API, services (chamadas para a API) e roteamento com vue-router
 
 # Construído com
